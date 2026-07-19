@@ -1,134 +1,82 @@
-# Real-Time Communication Platform (TypeScript)
+# Real-Time Communication Ecosystem (Web & Mobile)
 
-A full-featured real-time messaging and communication platform inspired by modern applications like WhatsApp and Discord.
+A full-featured, cross-platform real-time messaging and communication platform inspired by modern applications like WhatsApp and Discord. 
 
-This project focuses on building scalable real-time systems, handling media streams, and maintaining consistent state across users using TypeScript.
-
----
-
-## 🌐 Live Demo
-👉 https://isaac-tsups-ts.vercel.app/
+This ecosystem features both a **React Web Application** and a **React Native Mobile Application (CLI)** powered by a unified TypeScript backend, focusing on scalable real-time systems, native media streams, and consistent cross-platform state management.
 
 ---
 
-## 🎥 Demo Video
-👉 coming soon 
+## 🌐 Live Deployments & Demo
+
+- **Web App Demo:** 👉 https://isaac-tsups-ts.vercel.app/
+- **Android APK (Mobile Build):** 👉 [Insert Link to APK File Here]
+
+> ⚡ **Render Free Tier Note:** The backend server is hosted on Render's free tier. If the link takes 50–60 seconds to respond initially, the server is just waking up from a spinning-down period (cold start). Once awake, real-time communications operate with normal, low-latency performance.
 
 ---
 
 ## 🔥 Features
 
 ### 🔐 Authentication & Onboarding
-- User authentication and route protection (Clerk)
+- Cross-platform user authentication and route protection (Clerk)
 - User registration via webhooks
-- Onboarding flow with editable user profiles
-- Avatar selection and image uploads
-
----
+- Onboarding flow with editable profiles and avatar selection
 
 ### 💬 Messaging & Real-Time Communication
-- Real-time messaging using WebSockets
-- Chat history (message persistence)
-- Message status tracking:
-  - Sent
-  - Delivered
-  - Read
-- Message timestamps
-- Typing indicators
-- Voice recording indicators
+- Cross-platform real-time messaging using WebSockets (Socket.IO)
+- Chat history persistence and status tracking (Sent / Delivered / Read)
+- Typing and voice recording indicators
+- Real-time presence updates (Online / Offline / Last Seen)
 - Context menu interactions
 
----
-
 ### 📸 Media & Audio
-- Image sharing within chats
-- Voice message recording and sending
-- Waveform visualization during recording
-- Audio processing using Web Audio API (AudioContext + AnalyserNode)
-- Camera capture using browser video stream + canvas
-- File uploads handled with Multer
-
----
+- Image sharing and file uploads handled via Multer
+- Voice message recording with dynamic waveform visualization
+- Audio processing using Web Audio API (AudioContext + AnalyserNode) on web
+- Native camera capture and device video stream integration
 
 ### 📞 Calls & Streaming
-- Peer-to-peer audio calls
-- Video calling between users
-- Screen sharing
+- Peer-to-peer audio and video calling between web and mobile clients
 - Real-time signaling using WebSockets
-- Media streaming using WebRTC
-
----
-
-### 🟢 Presence System
-- Online / offline status
-- Last seen tracking
-- Real-time presence updates
+- Low-latency media streaming using WebRTC
 
 ---
 
 ## 🧠 Tech Stack
 
-### Frontend
-- React
-- TypeScript
+### Client Applications
+- **Web:** React, TypeScript, Tailwind CSS
+- **Mobile:** React Native (CLI), TypeScript, Native Modules
 
-### Backend
-- Node.js
-- Express
-- Socket.IO
-
-### Real-Time & Media
-- WebRTC
-- Web Audio API
-
-### Other Tools
-- Clerk (authentication)
-- Multer (file uploads)
+### Backend Infrastructure
+- **Server:** Node.js, Express, TypeScript
+- **Database & ORM:** PostgreSQL, Prisma
+- **Real-Time & Media:** Socket.IO, WebRTC, Web Audio API
 
 ---
 
-## 📌 Notes
+## 🏗️ Technical Architecture Highlights
 
-This project was built as a deep dive into real-time systems and communication platforms.
-
-Focus areas included:
-- Real-time synchronization
-- Media streaming (WebRTC)
-- Event-driven architecture
-- Type safety with TypeScript
+- **Cross-Platform State:** Structured the data layers so both the React web client and React Native mobile client receive identical real-time event payloads via Socket.IO.
+- **Media Pipeline:** Implemented audio capturing and rendering via the browser's `AudioContext` on web, mirrored with native audio recording permissions and hardware streams on mobile.
+- **P2P Streaming:** Utilized WebRTC for full mesh signaling to handle audio/video tracks between distinct device types with minimal latency.
 
 ---
 
 ## 🔒 Source Code
 
-The source code for this project is kept private.
+The source code repositories for both the Web and React Native applications are kept private.
 
 However, I’m happy to:
-- Walk through the architecture
+- Walk through the cross-platform architecture
 - Explain implementation details
-- Demonstrate specific features if needed
-
----
-
-## 🚀 Future Improvements
-- Deployment optimization
-- Performance improvements for large chat histories
-- Mobile version (React Native)
-- Enhanced UI/UX
+- Demonstrate specific features via a live code review call
 
 ---
 
 ## 🤝 Open to Opportunities
+I’m open to collaborations, contract roles, or freelance work related to Full-Stack Web Development, React Native (CLI), and real-time network systems.
 
-I’m open to collaborations, or freelance work related to:
-
-- React / TypeScript
-- Real-time applications
-- WebRTC-based systems
-
-  ## 📫 Contact
-
-Feel free to reach out:
-
-Email: isaacscottsk@gmail.com
-LinkedIn: https://www.linkedin.com/in/kayima-isaac-70a8a03a3/
+## 📫 Contact
+- **Email:** isaacscottsk@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/kayima-isaac-70a8a03a3/
