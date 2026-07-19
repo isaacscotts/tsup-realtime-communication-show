@@ -120,7 +120,7 @@ However, I’m happy to:
 
 ## 🤝 Open to Opportunities
 
-I’m open to internships, collaborations, or freelance work related to:
+I’m open to collaborations, or freelance work related to:
 
 - React / TypeScript
 - Real-time applications
