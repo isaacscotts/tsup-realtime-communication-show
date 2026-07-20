@@ -9,7 +9,7 @@ This ecosystem features both a **React Web Application** and a **React Native Mo
 ## 🌐 Live Deployments & Demo
 
 - **Web App Demo:** 👉 https://isaac-tsups-ts.vercel.app/
-- **Android APK (Mobile Build):** 👉 [Insert Link to APK File Here]
+- **Android APK (Mobile Build):** 👉https://drive.google.com/file/d/1W0CuMIpY9ga5HOkpSUq7CdR6sFr1E1dK/view?usp=drivesdk
 
 > ⚡ **Render Free Tier Note:** The backend server is hosted on Render's free tier. If the link takes 50–60 seconds to respond initially, the server is just waking up from a spinning-down period (cold start). Once awake, real-time communications operate with normal, low-latency performance.
 
